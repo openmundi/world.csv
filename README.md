@@ -1,9 +1,9 @@
 # world.csv
 
-open public domain world data (incl. countries ) in comma-separated values (CSV) format
+Free open public domain world data (incl. countries ) in comma-separated values (CSV) format
 
 
-- countries codes - alpha-2, alpha-3, numeric-3 (ISO 3166-1) for 249 countries (and dependent territories)
+- country codes - alpha-2, alpha-3, numeric-3 (ISO 3166-1) for 249 countries (and dependent territories)
 
 Example:
 
