@@ -92,6 +92,40 @@ AZE,Azerbaijan
 ...
 ~~~
 
+- football country codes for 209+13 countries (and dependent territories); FIFA (Fédération Internationale de Football Association ) codes; Example:
+
+~~~
+Code,Name
+AFG,Afghanistan
+ALB,Albania
+ALG,Algeria
+ASA,American Samoa
+AND,Andorra
+ANG,Angola
+AIA,Anguilla
+ATG,Antigua and Barbuda
+ARG,Argentina
+ARM,Armenia
+ARU,Aruba
+ARU,Australia
+AUT,Austria
+AZE,Azerbaijan
+...
+~~~
+
+Note: 13 countries (
+AFC (Asia): Northern Mariana Islands;
+CAF (Africa): Réunion, Zanzibar;
+CONCACAF (North and Central America and Caribbean): Bonaire, French Guiana, Guadeloupe, Martinique, Saint-Martin (French), Sint Maarten (Dutch);
+OFC (Oceania): Kiribati, Niue, Tuvalu;
+UEFA (Europe): Gibraltar
+) not FIFA members but members of continental confederations
+(AFC, CAF, CONCACAF, CONMEBOL, OFC and UEFA)
+
+Note:  7 countries (
+Micronesia, Nauru, Palau, Marshall Islands,
+Monaco, Vatican City, Great Britain
+) not affiliated
 
 
 ## Questions? Comments?
