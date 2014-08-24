@@ -3,20 +3,18 @@
 Free open public domain world data (incl. countries ) in comma-separated values (CSV) format.
 Country code datsets include: 
 
-- alpha-2 country codes for 249 countries (and dependent territories); ISO 3166-1
-- alpha-3 country codes for 249 countries (and dependent territories); ISO 3166-1
-- numeric-3 country codes for 249 countries (and dependent territories); ISO 3166-1
+- alpha-2, alpha-3, numeric-3 country codes for 249 countries (and dependent territories); ISO 3166-1
 - olympics country codes for 204 countries (and dependent territories); IOC (International Olympic Committee) codes
 - football country codes for 209+13 countries (and dependent territories); FIFA (Fédération Internationale de Football Association ) codes
 
 
-
 ## alpha-2, alpha-3, num-3 country codes (ISO 3166-1)
 
-### alpha-2 country codes (ISO 3166-1)
-
-alpha-2 country codes for 249 countries (and dependent territories);
+country codes for 249 countries (and dependent territories);
 ISO (International Organization for Standardization) 3166-1;
+
+### alpha-2 country codes
+
 Example:
 
 ~~~
@@ -40,10 +38,8 @@ AZ,Azerbaijan
 ...
 ~~~
 
-### alpha-3 country codes (ISO 3166-1)
+### alpha-3 country codes
 
-alpha-3 country codes for 249 countries (and dependent territories);
-ISO (International Organization for Standardization) 3166-1;
 Example:
 
 ~~~
@@ -67,10 +63,8 @@ AZE,Azerbaijan
 ...
 ~~~
 
-### numeric-3 country codes (ISO 3166-1)
+### numeric-3 country codes
 
-numeric-3 country codes for 249 countries (and dependent territories);
-ISO (International Organization for Standardization) 3166-1;
 Example:
 
 ~~~
@@ -96,7 +90,7 @@ Code,Name
 
 ### ISO 3166-1 summary - 196 countries / ?? territories / 1 other
 
-Note: The countries include 193 United Nations (UN) members
+Note: The 196 countries include 193 United Nations (UN) members
 and 3 non-member countries, that is,
 Kosovo ?, Tawain ?, Palestina ?
 
@@ -106,45 +100,60 @@ todo/fix: use iso codes NOT fifa; check for missing countries n territories !!!
 #### Europe - 49 Countries / 6 Territories
 
 49:
+**A**
 `al` Albania (ALB)
 `ad` Andorra (AND)
 `am` Armenia (ARM)
 `at` Austria (AUT)
 `az` Azerbaijan (AZE)
+**B**
 `by` Belarus (BLR)
 `be` Belgium (BEL)
 `ba` Bosnia and Herzegovina (BIH)
 `bg` Bulgaria (BGR)
+**C**
 `hr` Croatia (HRV)
 `cy` Cyprus (CYP)
 `cz` Czech Republic (CZE)
+**D**
 `dk` Denmark (DNK)
+**E**
 `ee` Estonia (EST)
+**F**
 `fi` Finland (FIN)
 `fr` France (FRA)
+**G**
 `ge` Georgia (GEO)
 `de` Germany (DEU)
 `gb` Great Britain (GBR)
 `gr` Greece (GRC)
+**H**
 `hu` Hungary (HUN)
+**I**
 `is` Iceland (ISL)
 `ie` Irland (IRL)
 `it` Italy (ITA)
+**L**
 `lv` Latvija (LVA)
 `li` Liechtenstein (LIE)
 `lt` Lithuania (LTU)
 `lu` Luxembourg (LUX)
+**M**
 `mk` Macedonia (MKD)
 `mt` Malta (MLT)
 `md` Moldova (MDA)
 `mc` Monaco (MCO)
 `me` Montenegro (MNE)
+**N**
 `nl` Netherlands (NLD)
 `no` Norway (NOR)
+**P**
 `pl` Poland (POL)
 `pt` Portugal (PRT)
+**R**
 `ro` Romania (ROU)
 `ru` Russia (RUS)
+**S**
 `sm` San Marino (SMR)
 `rs` Serbia (SRB)
 `sk` Slovakia (SVK)
@@ -152,8 +161,11 @@ todo/fix: use iso codes NOT fifa; check for missing countries n territories !!!
 `es` Spain (ESP)
 `se` Sweden (SWE)
 `ch` Switzerland (CHE)
+**T**
 `tr` Turkey (TUR)
+**U**
 `ua` Ukraine (UKR)
+**V**
 `va` Vatican City (VAT)
 
 6:
@@ -161,29 +173,36 @@ Great Britain (4):
 `gg` Guernsey (GGY)
 `im` Isle of Man (IMN)
 `je` Jersey (JEY)
-`gi` Gibraltar (GIB)
-
+`gi` Gibraltar (GIB)  
 Denmark (1):
-`fo` Faroe Islands (FRO)
-
+`fo` Faroe Islands (FRO)  
 Finland (1):
-`ax` Åland Islands (ALA)
+`ax` Åland Islands (ALA) 
 
 
 #### South America - 12 Countries / 4 Territories
 
 12:
+**A**
 `ar` Argentina (ARG)
+**B**
 `bo` Bolivia (BOL)
 `br` Brazil (BRA)
+**C**
 `cl` Chile (CHL)
 `co` Colombia (COL)
+**E**
 `ec` Ecuador (ECU)
+**G**
 `gy` Guyana (GUY)
+**P**
 `py` Paraguay (PRY)
 `pe` Peru (PER)
+**S**
 `sr` Suriname (SUR)
+**U**
 `uy` Uruguay (URY)
+**V**
 `ve` Venezuela (VEN)
 
 
@@ -191,8 +210,7 @@ Finland (1):
 Great Britain (3):
 `fk` Falkland Islands (FLK)
 `gs` South Georgia and South Sandwich (SGS)
-`sh` Saint Helena (SHN)
-
+`sh` Saint Helena (SHN)  
 France (1):
 `gf` French Guiana (GUF)
 
@@ -200,14 +218,16 @@ France (1):
 #### North America - 3 Countries / 2 Territories
 
 3:
+**C**
 `ca` Canada (CAN)
+**M**
 `mx` México (MEX)
+**U**
 `us` United States (USA)
 
 2:
 Denmark (1):
-`gl` Greenland (GRL)
-
+`gl` Greenland (GRL)  
 France (1):
 `pm` Saint Pierre and Miquelon (SPM)
 
@@ -215,30 +235,46 @@ France (1):
 #### Central America - 7 Countries
 
 7:
+**B**
 `bz` Belize (BLZ)
+**C**
 `cr` Costa Rica (CRI)
+**E**
 `sv` El Salvador (SLV)
+**G**
 `gt` Guatemala (GTM)
+**H**
 `hn` Honduras (HND)
+**N**
 `ni` Nicaragua (NIC)
+**P**
 `pa` Panamá (PAN)
 
 
 #### Caribbean - 13 Countries / 14 Territories
 
 13:
+**A**
 `ag` Antigua and Barbuda (ATG)
+**B**
 `bs` Bahamas (BHS)
 `bb` Barbados (BRB)
+**C**
 `cu` Cuba (CUB)
+**D**
 `dm` Dominica (DMA)
 `do` Dominican Republic (DOM)
+**G**
 `gd` Grenada (GRD)
+**H**
 `ht` Haiti (HTI)
+**J**
 `jm` Jamaica (JAM)
+**S**
 `kn` Saint Kitts and Nevis (KNA)
 `lc` Saint Lucia (LCA)
 `vc` Saint Vincent and the Grenadines (VCT)
+**T**
 `tt` Trinidad and Tobago (TTO)
 
 14:
@@ -247,16 +283,13 @@ Great Britain (5):
 `bm` Bermuda (BMU)
 `vg` British Virgin Islands (VGB)
 `ky` Cayman Islands (CYM)
-`tc` Turks and Caicos Islands (TCA)
-
+`tc` Turks and Caicos Islands (TCA)  
 Netherlands (2):
 `aw` Aruba (ABW)
-`cw` Curaçao (CUW)
-
+`cw` Curaçao (CUW)  
 United States (2):
 `pr` Puerto Rico (PUR)
-`vi` United States Virgin Islands (VIR)
-
+`vi` United States Virgin Islands (VIR)  
 France (5):
 `gp` Guadeloupe (GPE)
 `mq` Martinique (MTQ)
@@ -268,12 +301,15 @@ France (5):
 #### Africa - 54 Countries / 2 Territories
 
 54:
+**A**
 `dz` Algeria (DZA)
 `ao` Angola (AGO)
+**B**
 `bj` Benin (BEN)
 `bw` Botswana (BWA)
 `bf` Burkina Faso (BFA)
 `bi` Burundi (BDI)
+**C**
 `cm` Cameroon (CMR)
 `cv` Cape Verde (CPV)
 `cf` Central African Republic (CAF)
@@ -282,20 +318,26 @@ France (5):
 `cg` Congo (COG)
 `cd` Congo DR (COD)
 `ci` Côte d'Ivoire (CIV)
+**D**
 `dj` Djibouti (DJI)
+**E**
 `eg` Egypt (EGY)
 `gq` Equatorial Guinea (GNQ)
 `er` Eritrea (ERI)
 `et` Ethiopia (ETH)
+**G**
 `ga` Gabon (GAB)
 `gm` Gambia (GMB)
 `gh` Ghana (GHA)
 `gn` Guinea (GIN)
 `gw` Guinea-Bissau (GNB)
+**K**
 `ke` Kenya (KEN)
+**L**
 `ls` Lesotho (LSO)
 `lr` Liberia (LBR)
 `ly` Libya (LBY)
+**M**
 `mg` Madagascar (MDG)
 `mw` Malawi (MWI)
 `ml` Mali (MLI)
@@ -303,10 +345,13 @@ France (5):
 `mu` Mauritius (MUS)
 `ma` Morocco (MAR)
 `mz` Mozambique (MOZ)
+**N**
 `na` Namibia (NAM)
 `ne` Niger (NER)
 `ng` Nigeria (NGA)
+**R**
 `rw` Rwanda (RWA)
+**S**
 `sn` Senegal (SEN)
 `yc` Seychelles (SYC)
 `sl` Sierra Leone (SLE)
@@ -316,10 +361,13 @@ France (5):
 `sd` Sudan (SDN)
 `sz` Swaziland (SWZ)
 `st` São Tomé and Príncipe (STP)
+**T**
 `tz` Tanzania (TZA)
 `tg` Togo (TGO)
 `tn` Tunisia (TUN)
+**U**
 `ug` Uganda (UGA)
+**Z**
 `zm` Zambia (ZMB)
 `zw` Zimbabwe (ZWE)
 
@@ -332,64 +380,87 @@ France (2):
 #### Middle East - 14 Countries
 
 14:
+**B**
 `bh` Bahrain (BHR)
+**I**
 `ir` Iran (IRN)
 `iq` Iraq (IRQ)
 `il` Israel (ISR)
+**J**
 `jo` Jordan (JOR)
+**K**
 `kw` Kuwait (KWT)
+**L**
 `lb` Lebanon (LBN)
+**O**
 `om` Oman (OMN)
+**P**
 `ps` Palestine (PSE)
+**Q**
 `qa` Qatar (QAT)
+**S**
 `sa` Saudi Arabia (SAU)
 `sy` Syria (SYR)
+**U**
 `ae` United Arab Emirates (ARE)
+**Y**
 `ye` Yemen (YEM)
 
 
 #### Asia - 30 Countries / 5 Territories
 
 30:
+**A**
 `af` Afghanistan (AFG)
+**B**
 `bd` Bangladesh (BGD)
 `bt` Bhutan (BTN)
 `bn` Brunei (BRN)
+**C**
 `kh` Cambodia (KHM)
 `cn` China (CHN)
+**I**
 `in` India (IND)
 `id` Indonesia (IDN)
+**J**
 `jp` Japan (JPN)
+**K**
 `kz` Kazakhstan (KAZ)
 `kg` Kyrgyzstan (KGZ)
+**L**
 `la` Laos (LAO)
+**M**
 `my` Malaysia (MYS)
 `mv` Maldives (MDV)
 `mn` Mongolia (MNG)
 `mm` Myanmar (MMR)
+**N**
 `np` Nepal (NPL)
 `kp` North Korea (PRK)
+**P**
 `pk` Pakistan (PAK)
 `ph` Philippines (PHL)
+**S**
 `sg` Singapore (SGB)
 `kr` South Korea (KOR)
 `lk` Sri Lanka (LKA)
+**T**
 `tw` Taiwan (TWN)
 `tj` Tajikistan (TJK)
 `th` Thailand (THA)
 `tl` Timor-Leste (TLS)
 `tm` Turkmenistan (TKM)
+**U**
 `uz` Uzbekistan (UZB)
+**V**
 `vn` Vietnam (VNM)
 
 5:
 China (2):
 `hk` Hong Kong (HKG)
-`mo` Macau (MAC)
-
+`mo` Macau (MAC)  
 Great Britain (1):
-`io` British Indian Ocean Territory (IOT)
-
+`io` British Indian Ocean Territory (IOT)  
 Australia (2):
 `cx` Christmas Island (CXR)
 `cc` Cocos (Keeling) Islands (CCK)
@@ -398,40 +469,45 @@ Australia (2):
 #### Pacific - 14 Countries / 11 Territories
 
 14:
+**A**
 `au` Australia (AUS)
+**F**
 `fj` Fiji (FJI)
+**K**
 `ki` Kiribati (KIR)
+**M**
 `mh` Marshall Islands (MHL)
 `fm` Micronesia (FSM)
+**N**
 `nr` Nauru (NRU)
 `nz` New Zealand (NZL)
+**P**
 `pw` Palau (PLW)
 `pg` Papua New Guinea (PNG)
+**S**
 `ws` Samoa (WSM)
 `sb` Solomon Islands (SLB)
+**T**
 `to` Tonga (TON)
 `tv` Tuvalu (TUV)
+**V**
 `vu` Vanuatu (VUT)
 
 11:
 United States (3):
 `as` American Samoa (ASM)
 `gu` Guam (GUM)
-`mp` Northern Mariana Islands (MNP)
-
+`mp` Northern Mariana Islands (MNP)  
 New Zealand (3):
 `ck` Cook Islands (COK)
 `nu` Niue (NIU)
-`tk` Tokelau (TKL)
-
+`tk` Tokelau (TKL)  
 France (3):
 `nc` New Caledonia (NCL)
 `pf` Tahiti (TAH)
-`wf` Wallis and Futuna (WLF)
-
+`wf` Wallis and Futuna (WLF)  
 Great Britain (1):
-`pn` Pitcairn Islands (PCN)
-
+`pn` Pitcairn Islands (PCN)  
 Australia (1):
 `nf` Norfolk Island (NFK)
 
@@ -493,14 +569,10 @@ AZE,Azerbaijan
 Note: 13 countries (and ?? territories) not FIFA members but members of continental confederations
 (AFC, CAF, CONCACAF, CONMEBOL, OFC and UEFA):
 
-AFC (Asia): Northern Mariana Islands;
-
-CAF (Africa): Réunion, Zanzibar;
-
-CONCACAF (North and Central America and Caribbean): Bonaire, French Guiana, Guadeloupe, Martinique, Saint-Martin (French), Sint Maarten (Dutch);
-
-OFC (Oceania): Kiribati, Niue, Tuvalu;
-
+AFC (Asia): Northern Mariana Islands  
+CAF (Africa): Réunion, Zanzibar  
+CONCACAF (North and Central America and Caribbean): Bonaire, French Guiana, Guadeloupe, Martinique, Saint-Martin (French), Sint Maarten (Dutch)  
+OFC (Oceania): Kiribati, Niue, Tuvalu  
 UEFA (Europe): Gibraltar
 
 
