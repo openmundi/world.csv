@@ -1,16 +1,19 @@
 # world.csv
 
-Free open public domain world data (incl. countries ) in comma-separated values (CSV) format.
+Free open public domain world data in comma-separated values (CSV) format.
 Country code datsets include: 
 
-- alpha-2, alpha-3, numeric-3 country codes for 249 countries (and dependent territories); ISO 3166-1
-- olympics country codes for 204 countries (and dependent territories); IOC (International Olympic Committee) codes
-- football country codes for 209+13 countries (and dependent territories); FIFA (Fédération Internationale de Football Association ) codes
+- alpha-2, alpha-3, numeric-3 country codes for 249 countries (incl. dependencies and overseas territories);
+  [ISO 3166-1](http://en.wikipedia.org/wiki/ISO_3166-1)
+- olympics country codes for 204 countries (incl. dependencies and overseas territories);
+  [IOC (International Olympic Committee) codes](http://en.wikipedia.org/wiki/List_of_IOC_country_codes)
+- football country codes for 209+13 countries (incl. dependencies and overseas territories);
+  [FIFA (Fédération Internationale de Football Association ) codes](http://en.wikipedia.org/wiki/List_of_FIFA_country_codes)
 
 
-## alpha-2, alpha-3, num-3 country codes (ISO 3166-1)
+## alpha-2, alpha-3, num-3 country codes
 
-country codes for 249 countries (and dependent territories);
+country codes for 249 countries (incl. dependencies and overseas territories);
 ISO (International Organization for Standardization) 3166-1;
 
 ### alpha-2 country codes
@@ -92,7 +95,7 @@ Code,Name
 
 Note: The 196 countries include 193 United Nations (UN) members
 and 3 non-member countries, that is,
-Kosovo ?, Tawain ?, Palestina ?
+Kosovo ?, Tawain ?, Palestina ?, Western Sahara ?, Vatican City ?
 
 
 todo/fix: use iso codes NOT fifa; check for missing countries n territories !!!
@@ -512,7 +515,7 @@ Australia (1):
 `nf` Norfolk Island (NFK)
 
 
-#### Others - 1 Others
+#### Antarctica - 1 Other / ?? Territories
 
 1: `aq` Antarctica (ATA)
 
